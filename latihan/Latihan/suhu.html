@@ -1,0 +1,16 @@
+<input min="0" id="input" placeholder="Masukan suhu (Celcius)">
+<button id="btn">Konversi suhu</button>
+<p id="result"></p>
+<script>
+    var C, K, F, R,
+    input = document.getElementById('input',)
+    btn   = document.getElementById('btn'),
+    result= document.getElementById('result');
+    btn.addEventListener('click', function(){
+        C = input.value;
+        K = C + 273.15;
+        F = (C * 1.8) + 32;
+        R = C * 0,8;
+        result.innerHTML = Math.floor(K) + ' K '; +Math.floor(F) + ' F '; +Math.floor(R) + ' R ';
+        })
+</script> 

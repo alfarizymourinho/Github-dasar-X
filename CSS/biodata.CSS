@@ -1,0 +1,36 @@
+h1{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: purple;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: royalblue;
+}
+h3{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: silver;
+}
+h4{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: springgreen;
+}
+h5{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: violet;
+}
+p{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: calibri, Helvetica, sans-serif;
+    color: green;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIDEBAR</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+      body{
+       background: slategray;
+      }
+      header{
+          padding: 100px;
+          height: 100%;
+          background: gray;
+          color: black;
+          padding: 50px 0px;
+          position: fixed;
+      }
+    .wrapper{
+        display: flex;
+        position: relative;
+    }
+    .wrapper .sidebar{
+        width: 200px;
+        height: 100%;
+        background: gray;
+        padding: 40px 0px;
+        position: fixed;
+    }
+    .wrapper .sidebar ul li{
+        padding: 100px;
+        border-bottom: 3px solid black;
+        border-bottom: 3px solid gray;
+        border-bottom: 3px solid blueviolet;
+    }
+    .wrapper .sidebar ul li a{
+        color: black;
+        display: block;
+    }
+    .wrapper .sidebar ul li a .fast{
+        width: 25px;
+    }
+    .wrapper .sidebar ul li:hover{
+        background-color: gray;
+    }
+    .wrapper .sidebar ul li:hover a{
+        color: crimson;
+    }
+    </style>
+</head>
+<body>
+    <header class="text-center">Al-farizy m g</header>
+  <nav>
+    <div class="wrapper">
+        <ul class="sidebar">
+            <li><a href="../ulangan mingguan/grade nilai.html" class="tbl-biru">GARDE NILAI</a></li>
+            <li><a href="../ulangan mingguan/menentukan umur.html" class="tbl-biru">MENENTUKAKN UMUR</a></li>
+            <li><a href="../ulangan mingguan/kasir.html" class="tbl-biru">KASIR</a></li>
+            <li><a href="../ulangan mingguan/hotel.html" class="tbl-biru">HOTEL</a></li>
+            <li><a href="../ulangan mingguan/hotel promt.html" class="tbl-biru">HOTEL PROMPT</a></li>
+        </ul>
+        </div>
+    </div>
+</nav> 
+  <script src="../js/code.js"></script>
+</body>
+</html>
